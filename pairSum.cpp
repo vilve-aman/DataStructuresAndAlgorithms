@@ -50,3 +50,10 @@ int main(){
 // we can solve this problem with ( sorting + two pointer ) approach also 
 // TC=o(nlogn + n)
 // SC=o(1)
+
+
+
+// tested inputs 
+
+// 5 5
+// 1 2 3 4 5
