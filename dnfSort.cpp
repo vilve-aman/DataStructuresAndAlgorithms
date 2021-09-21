@@ -49,3 +49,13 @@ int main(){
 
     return  0;
 }
+
+
+
+
+// Sort an array of 0s, 1s and 2s
+
+// tested inputs   
+
+// 8
+// 1 1 0 0 2 2 1 1
