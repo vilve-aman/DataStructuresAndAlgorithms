@@ -48,3 +48,16 @@ int main(){
 
     return  0;
 }
+
+
+// Union of two arrays -- DSA cracker sheet 
+
+// tested inputs 
+// 5 3
+// 1 2 3 4 5
+// 1 2 3
+
+
+// 6 2 
+// 85 25 1 32 54 6
+// 85 2
