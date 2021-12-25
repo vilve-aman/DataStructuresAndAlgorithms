@@ -1,5 +1,5 @@
 // problem statement 
-// https://www.geeksforgeeks.org/count-number-of-ways-to-partition-a-set-into-k-subsets/
+//  https://www.geeksforgeeks.org/count-number-of-ways-to-partition-a-set-into-k-subsets/
 // https://www.pepcoding.com/resources/data-structures-and-algorithms-in-java-levelup/recursion-and-backtracking/k-partitions-official/ojquestion
 
 #include <bits/stdc++.h>
