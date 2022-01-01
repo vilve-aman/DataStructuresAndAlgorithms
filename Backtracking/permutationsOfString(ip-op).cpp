@@ -2,11 +2,13 @@
 using namespace std;
 
 void solve(vector<char> &input, vector<char> &taken, vector<vector<char>> &ans) {
+    // base condition 
     if (input.size()==0){
         ans.push_back(taken);
         return;
     }
     
+    // normal condition 
     for (int i = 0; i < input.size(); i++) {
         char temp=input[i];
         taken.push_back(temp);
