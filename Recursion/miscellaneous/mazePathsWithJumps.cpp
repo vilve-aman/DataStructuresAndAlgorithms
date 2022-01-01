@@ -1,3 +1,7 @@
+// mazePathsWithJumps
+// Question :  https://www.youtube.com/watch?v=F6T3tD8Pw20
+// Solution :   https://www.youtube.com/watch?v=VaGBRiSdtFI
+
 #include<iostream>
 #include<vector>
 #include<string>
