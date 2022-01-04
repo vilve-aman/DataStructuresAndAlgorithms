@@ -10,14 +10,16 @@ void solve(vector<char> &input, vector<char> &taken, vector<vector<char>> &ans) 
     
     // normal condition 
     for (int i = 0; i < input.size(); i++) {
+
         char temp=input[i];
         taken.push_back(temp);
         input.erase(input.begin()+i);
-        solve(input,taken,ans);
-        input.insert(input.begin()+i,temp);
-        taken.pop_back();
+        solve(input,taken,ans);                            //------------------------backtracking--------------------------//
+        input.insert(input.begin()+i,temp);     //------------------------backtracking--------------------------//
+        taken.pop_back();                                   //------------------------backtracking--------------------------//
     }
 }
+
 vector<vector<char>> permute(vector<char> input) {
     vector<vector<char>> ans;
      vector<char> taken;
