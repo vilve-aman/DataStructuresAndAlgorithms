@@ -42,3 +42,12 @@ int main(){
 
     return  0;
 }
+
+
+// tested inputs 
+
+// 4 10
+// 1 3 4 6
+// 20 30 10 50
+// output 
+// 100
