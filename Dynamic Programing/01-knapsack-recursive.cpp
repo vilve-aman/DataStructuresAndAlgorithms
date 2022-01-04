@@ -13,7 +13,7 @@ int knapSack(int limit, int n, int  weights[], int  values[]){
         return  knapSack(limit, n-1, weights, values);
     }
     else{
-        return  max( weights[n-1]+knapSack(limit-weights[n-1], n-1, weights, values), knapSack(limit, n-1, weights, values) );
+        return  max( values[n-1]+knapSack(limit-weights[n-1], n-1, weights, values), knapSack(limit, n-1, weights, values) );
     }
     
     

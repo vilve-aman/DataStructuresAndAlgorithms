@@ -2,7 +2,7 @@
 using namespace std;
 
 int knapSack(int limit, int n, int  weights[], int  values[], vector<vector<int>> &solution){
-    // cout<<limit<<" ";
+    
     // base condition 
     if (limit==0 || n<0){
         return 0;
@@ -16,7 +16,7 @@ int knapSack(int limit, int n, int  weights[], int  values[], vector<vector<int>
     }
     else{
         if (solution[n][limit]!=-1)     return solution[n][limit];
-        else       solution[n][limit]=max(weights[n-1]+knapSack(limit-weights[n-1], n-1, weights, values, solution), knapSack(limit, n-1, weights, values, solution));
+        else       solution[n][limit]=max(values[n-1]+knapSack(limit-weights[n-1], n-1, weights, values, solution), knapSack(limit, n-1, weights, values, solution));
         return  solution[n][limit];
     }
     
@@ -46,3 +46,14 @@ int main(){
 
     return  0;
 }
+
+
+
+
+// tested inputs 
+
+// 4 10
+// 1 3 4 6
+// 20 30 10 50
+// output 
+// 10
