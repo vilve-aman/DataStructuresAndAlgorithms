@@ -58,3 +58,14 @@ int main(){
         cout<<"hello world.😉\t "<<dp[n][limit];
     return  0;
 }
+
+// inputs tested 
+
+// 2 7
+// 5 2
+// output 
+// IM  IM  IM  IM  IM  IM  IM  IM  
+// 0   IM  IM  IM  IM  1   IM  IM  
+// 0   IM  1   IM  2   1   3   2   
+// hello world.😉	 2
+
