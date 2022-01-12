@@ -69,3 +69,12 @@ int main(){
 // 0   IM  1   IM  2   1   3   2   
 // hello world.😉	 2
 
+
+// 3 4
+// 1 3 5
+// output 
+// IM  IM  IM  IM  IM  
+// 0   1   2   3   4   
+// 0   1   2   1   2   
+// 0   1   2   1   2   
+// hello world.😉	 2
