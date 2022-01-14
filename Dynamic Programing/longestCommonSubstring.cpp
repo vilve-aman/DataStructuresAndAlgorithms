@@ -43,7 +43,7 @@ int main(){
     vector<vector<int>> dp(x.length()+1, vector<int> (y.length()+1, -1) );
     cout<<longestCommonSubsequence(x,y,x.length(), y.length(), dp)<<endl;
 
-        for(auto i : dp){
+    for(auto i : dp){
         printvector(i);
         cout<<endl;
     }
@@ -71,6 +71,14 @@ int main(){
 
 
 // inputs tested 
-// abcdef
-// acdfhi
+// abdef
+// xabdy
 // output 
+// hello world.😉
+// 3
+// 0   0   0   0   0   0   
+// 0   0   1   0   0   0   
+// 0   0   0   2   0   0   
+// 0   0   0   0   3   0   
+// 0   0   0   0   0   0   
+// 0   0   0   0   0   0
