@@ -72,10 +72,8 @@ int main(){
 
     cout<<knightTour(arr,n,r,c,1)<<endl;
 
-    for (int  i = 0; i < n; i++)
-    {
-        for (int j = 0; j < n; j++)
-        {
+    for (int  i = 0; i < n; i++)    {
+        for (int j = 0; j < n; j++)        {
            if(arr[i][j]/10==0)      cout<<arr[i][j]<<"  ";
            else     cout<<arr[i][j]<<" ";
         }
@@ -86,3 +84,16 @@ int main(){
     
     return  0;
 }
+
+
+// inputs tested 
+// 5
+// 2 2
+
+// hello world.😉
+// 1
+// 21 12 7  2  19 
+// 6  17 20 13 8  
+// 11 22 1  18 3  
+// 16 5  24 9  14 
+// 23 10 15 4  25

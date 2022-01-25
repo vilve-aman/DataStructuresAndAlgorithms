@@ -7,7 +7,7 @@ int factorial[]={1,1,2,6,24,120,720};
 vector<int> kp(int n,int k, vector<int> &digits, vector<int> &op){
     // base case 
     if(digits.size()==1){
-        op.push_back((char)digits[0]);
+        op.push_back(digits[0]);
         return op;
     }
     // recursive case 
@@ -16,7 +16,7 @@ vector<int> kp(int n,int k, vector<int> &digits, vector<int> &op){
         fixedDigit--;
     }
     int nextk=k%factorial[n-1];
-    op.push_back((char)digits[fixedDigit]);
+    op.push_back(digits[fixedDigit]);
     digits.erase(digits.begin()+fixedDigit);
 
     kp(n-1,nextk,digits,op);
