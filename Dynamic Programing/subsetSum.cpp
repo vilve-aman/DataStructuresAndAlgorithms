@@ -51,10 +51,10 @@ int main(){
         cin>>weights[i];
     }
 
-  for(auto i : dp){
-        printvector(i);
-        cout<<endl;
-    }
+//   for(auto i : dp){
+//         printvector(i);
+//         cout<<endl;
+//     }
 
     knapSack(limit, n, weights, dp);
 
