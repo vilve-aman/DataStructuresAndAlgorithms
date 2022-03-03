@@ -77,3 +77,12 @@ int main(){
 
 
 
+// inputs  tested
+// 5
+// cats cat and sand dog
+// catsanddog
+// output 
+// hello world.😉
+
+// 1[cat sand dog]
+// [cats and dog]
